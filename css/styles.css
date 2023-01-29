@@ -78,6 +78,7 @@ ul {
 .order-btn {
   color: var(--main-wight-color);
   background-color: var(--logo-blue-color);
+  cursor: pointer;
   border-color: transparent;
   letter-spacing: 0.04em;
   font-family: inherit;
@@ -127,6 +128,7 @@ ul {
 .filter-btn {
   color: var(--logo-blue-color);
   background-color: var(--logo-wight-color);
+  cursor: pointer;
   border-color: transparent;
   font-family: 'Roboto';
   font-style: normal;
