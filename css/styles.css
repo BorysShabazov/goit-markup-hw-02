@@ -44,11 +44,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.link:hover,
-.link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--nav-hover-caolor);
 }
-.link.current {
+.nav-link.current {
   color: var(--nav-hover-caolor);
 }
 
@@ -57,6 +57,10 @@ ul {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.addres-link:hover,
+.addres-link:focus {
+  color: var(--nav-hover-caolor);
 }
 
 /* hero */
