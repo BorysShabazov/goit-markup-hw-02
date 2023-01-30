@@ -13,12 +13,14 @@ body {
   background-color: var(--main-wight-color);
   color: var(--main-text-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.02em;
   font-size: 16px;
-  line-height: 1.5;
 }
 ul {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /* heder */
@@ -36,31 +38,25 @@ ul {
   color: var(--logo-wight-color);
 }
 
-.site-nav .link {
+.nav-link {
   color: var(--titel-text-color);
-  font-family: 'Roboto';
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link:hover,
+.link:focus {
   color: var(--nav-hover-caolor);
 }
-.site-nav .link.current {
+.link.current {
   color: var(--nav-hover-caolor);
 }
 
-.addres a {
+.addres-link {
   color: var(--main-text-color);
-  font-family: 'Roboto';
   font-style: normal;
-  font-size: 16px;
   line-height: 1.5;
-}
-.addres a:hover,
-.addres a:focus {
-  color: var(--nav-hover-caolor);
+  letter-spacing: 0.02em;
 }
 
 /* hero */
@@ -69,11 +65,10 @@ ul {
 }
 .hero-title {
   color: var(--main-wight-color);
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 .order-btn {
   color: var(--main-wight-color);
@@ -94,16 +89,22 @@ ul {
 /* sections */
 .section-title {
   color: var(--titel-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  text-transform: capitalize;
 }
-.title {
+.section-sub-title {
   color: var(--titel-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-text {
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 /* team */
@@ -114,12 +115,11 @@ ul {
 /* footer */
 .footer-text {
   color: var(--footer-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .footer {
   background-color: var(--titel-text-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 /* portfolio */
