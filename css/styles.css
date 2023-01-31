@@ -1,4 +1,9 @@
-/*  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --titel-text-color: #2e2f42;
   --main-text-color: #434455;
@@ -50,6 +55,16 @@ ul {
 }
 .nav-link.current {
   color: var(--nav-hover-caolor);
+}
+.current::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--nav-hover-caolor);
 }
 
 .addres-link {
