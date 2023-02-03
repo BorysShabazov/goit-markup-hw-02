@@ -1,9 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 :root {
   --titel-text-color: #2e2f42;
   --main-text-color: #434455;
@@ -110,6 +104,7 @@ ul {
   color: var(--titel-text-color);
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -149,8 +144,7 @@ ul {
   background-color: var(--logo-wight-color);
   cursor: pointer;
   border-color: transparent;
-  font-family: 'Roboto';
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
